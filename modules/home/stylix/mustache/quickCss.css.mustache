@@ -1,0 +1,63 @@
+/**
+ * @name midnight
+ * @description A darkened discord theme.
+ * @author refact0r
+ * @version 1.5.0
+ * @source https://github.com/refact0r/midnight-discord
+ * @authorId 508863359777505290
+*/
+
+/* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!! */
+
+@import url('https://refact0r.github.io/midnight-discord/midnight.css');
+
+/* change colors and variables here */
+:root {
+	/* amount of spacing and padding */
+	--spacing: 12px;
+	/* radius of round corners */
+	--roundness: 16px;
+
+	/* color of links */
+	--accent-1: #{{base0A-hex}};
+	/* color of unread dividers and some indicators */
+	--accent-2: #{{base0B-hex}}70;
+	/* color of accented buttons */
+	--accent-3: #{{base0A-hex}}70;
+	/* color of accented buttons when hovered */
+	--accent-4: #{{base0B-hex}}90;
+	/* color of accented buttons when clicked */
+	--accent-5: #{{base0B-hex}};
+
+	/* color of mentions and messages that mention you */
+	--mention: #{{base0B-hex}}70;
+	/* color of mentions and messages that mention you when hovered */
+	--mention-hover: #{{base0B-hex}};
+
+	/* color of bright text on colored buttons */
+	--text-1: #{{base04-hex}};
+	/* color of headings and important text */
+	--text-2: #{{base04-hex}};
+	/* color of normal text */
+	--text-3: #{{base05-hex}};
+	/* color of icon buttons and channels */
+	--text-4: #{{base05-hex}}50;
+	/* color of muted channels/chats and timestamps */
+	--text-5: #{{base05-hex}}20;
+
+	/* color of dark buttons when clicked */
+	--bg-1: #{{base04-hex}};
+	/* color of dark buttons */
+	--bg-2: #{{base00-hex}}50;
+	/* color of spacing around panels and secondary elements */
+	--bg-3: #{{base00-hex}}50;
+	/* main background color */
+	--bg-4: #{{base00-hex}};
+
+	/* color of channels and icon buttons when hovered */
+	--hover: #{{base0A-hex}}60;
+	/* color of channels and icon buttons when clicked or selected */
+	--active: #{{base0A-hex}}70;
+	/* color of messages when hovered */
+	--message-hover: hsla(220, 0%, 0%, 0.1);
+}
